@@ -1,0 +1,49 @@
+#project_top {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6d6c9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#project_title {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 0%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #f8f4f0;
+    border-style: solid;
+}
+
+#project_title_name {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+
+#project_intro {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 0%;
+    padding-bottom: 3%;
+    border-bottom: 5px;
+    border-bottom-style: groove;
+    background-color: rgba(0,0,0,0.3);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#project_intro > p {
+    width: 90%;
+    text-align: justify;
+}

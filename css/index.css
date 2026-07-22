@@ -1,0 +1,24 @@
+@import url("pages/main.css");
+
+
+@import url("components/banner.css");
+@import url("components/body.css");
+@import url("components/ribbon.css");
+@import url("components/image.css");
+@import url("components/webpage_nav.css");
+
+
+
+
+@import url("components/project_nav.css");
+@import url("components/project_title.css");
+@import url("components/project_content.css");
+@import url("components/project_skills.css");
+
+p {
+    font-size: 18px;
+}
+
+button {
+    border-radius: 20px;
+}
