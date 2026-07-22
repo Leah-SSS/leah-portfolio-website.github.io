@@ -29,7 +29,7 @@ changeOverview.addEventListener("click", (event) => {
     projectBody01.querySelector("p").innerText = `
     １．RubyOnRails求人サイト
     `;
-    projectBody01.querySelector("img").src = "image/dummy_screen_03.png";
+    projectBody01.querySelector("img").src = "image/overview_img/ruby_icon_02.jpg";
 
 
     const projectBody02 = document.querySelector("#project_body_02");
@@ -39,7 +39,7 @@ changeOverview.addEventListener("click", (event) => {
     ２．CodeWarsアルゴリズム問題
     ３．バトルシップ
     `; 
-    projectBody02.querySelector("img").src = "image/dummy_screen_03.png";
+    projectBody02.querySelector("img").src = "image/overview_img/python_icon_02.jpg";
 
 
     const projectBody03 = document.querySelector("#project_body_03");
@@ -48,7 +48,7 @@ changeOverview.addEventListener("click", (event) => {
     １．ぷちポケモン図鑑API・サイト
     ２．ポートフォリオ・サイト
     `;
-    projectBody03.querySelector("img").src = "image/dummy_screen_03.png"; 
+    projectBody03.querySelector("img").src = "image/overview_img/javascript_icon.jpg"; 
     
     
     const projectBody04 = document.querySelector("#project_body_04");
@@ -58,7 +58,7 @@ changeOverview.addEventListener("click", (event) => {
     ２．ソフトウェアインストール
     ３．Windows依存アプリインストール
     `;
-    projectBody04.querySelector("img").src = "image/dummy_screen_03.png";  
+    projectBody04.querySelector("img").src = "image/overview_img/garuda_icon_02.jpg";  
 
 
 

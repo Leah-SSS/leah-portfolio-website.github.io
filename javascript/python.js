@@ -41,7 +41,7 @@ changePython.addEventListener("click", (event) => {
     部分的なコードテストとデバッグを繰り返すイテレーティブな開発手法により、コードの修正と正常性の検証を効率的に行いました。
     特に、cryptographyパッケージの「Fernet」暗号化実装で問題が発生した際は、事前に確認していた公式ドキュメントを参照することで原因を特定し、迅速に解決することができました。
     `; 
-    projectBody02.querySelector("img").src = "image/dummy_screen_02.png";
+    projectBody02.querySelector("img").src = "image/python_img/encryption_01.png";
 
 
     const projectBody03 = document.querySelector("#project_body_03");
@@ -50,7 +50,7 @@ changePython.addEventListener("click", (event) => {
     CodeWarsでのコーディング課題への挑戦を通じて、Pythonにおけるデータ操作の基礎と制御構造を効果的に強化できました。
     多様なアルゴリズム問題に取り組むことで、問題分析力と解決能力が向上し、実装前の計画的なアプローチ（プランニング）を身につける貴重な経験となりました。
     `;
-    projectBody03.querySelector("img").src = "image/dummy_screen_02.png"; 
+    projectBody03.querySelector("img").src = "image/python_img/codewars_01.png"; 
     
     
     const projectBody04 = document.querySelector("#project_body_04");
@@ -60,7 +60,7 @@ changePython.addEventListener("click", (event) => {
     さらに、テキスト、数値、リストなど多様なランダムデータを生成するロジックを独立した関数として外部ファイルに実装し、これを任意のプロジェクトからインポートして再利用可能な「自作パッケージ」として整備しました。
     これにより、データ生成の自動化とコード資産の蓄積・共有が可能となり、開発効率を劇的に向上させることができました。
     `;
-    projectBody04.querySelector("img").src = "image/dummy_screen_02.png";  
+    projectBody04.querySelector("img").src = "image/python_img/codewars_03.png";  
 
 
 
