@@ -85,4 +85,34 @@ changePython.addEventListener("click", (event) => {
     skillSet03.querySelector("#skill08").innerText = "ーーー";
     skillSet03.querySelector("#skill09").innerText = "ーーー";
 
+
+    // ---------------------------------------
+    // <<< UPDATE REFRENCE >>>
+    // ---------------------------------------
+    const projectReference = document.querySelector("#body_reference");
+    console.log("Zanadria")
+
+    projectReference.querySelector("#ref_01_item span").innerText = "PYTHON公式チュートリアル　：";
+    projectReference.querySelector("#ref_01_item a").innerText = "https://docs.python.org/ja/3/tutorial/";
+    projectReference.querySelector("#ref_01_item a").href = "https://docs.python.org/ja/3/tutorial/";
+
+    projectReference.querySelector("#ref_02_item span").innerText = "PYTHON-W3SCHOOLチュートリアル　：";
+    projectReference.querySelector("#ref_02_item a").innerText = "https://www.w3schools.com/python/";
+    projectReference.querySelector("#ref_02_item a").href = "https://www.w3schools.com/python/";
+
+    projectReference.querySelector("#ref_03_item span").innerText = "PYTHON暗号化パッケージ　：";
+    projectReference.querySelector("#ref_03_item a").innerText = "https://pypi.org/project/cryptography/";
+    projectReference.querySelector("#ref_03_item a").href = "https://pypi.org/project/cryptography/";
+
+
+    projectReference.querySelector("#ref_04_item span").innerText = "PYTHON問題CODEWARS　：";
+    projectReference.querySelector("#ref_04_item a").innerText = "https://www.codewars.com/collections/python-practice-1";
+    projectReference.querySelector("#ref_04_item a").href = "https://www.codewars.com/collections/python-practice-1";
+
+    projectReference.querySelector("#ref_05_item span").innerText = "　ーーー　";
+    projectReference.querySelector("#ref_05_item a").innerText = "";
+
+
+
+
 });

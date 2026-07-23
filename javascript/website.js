@@ -88,4 +88,31 @@ changeWebsite.addEventListener("click", (event) => {
     skillSet03.querySelector("#skill08").innerText = "API";
     skillSet03.querySelector("#skill09").innerText = "ーーー";
 
+
+    // ---------------------------------------
+    // <<< UPDATE REFRENCE >>>
+    // ---------------------------------------
+    const projectReference = document.querySelector("#body_reference");
+    console.log("Zanadria")
+
+    projectReference.querySelector("#ref_01_item span").innerText = "HTMLチュートリアル　：";
+    projectReference.querySelector("#ref_01_item a").innerText = "https://www.w3schools.com/html/";
+    projectReference.querySelector("#ref_01_item a").href = "https://www.w3schools.com/html/";
+
+    projectReference.querySelector("#ref_02_item span").innerText = "JAVASCRIPT公式チュートリアル　：";
+    projectReference.querySelector("#ref_02_item a").innerText = "https://ja.javascript.info/";
+    projectReference.querySelector("#ref_02_item a").href = "https://ja.javascript.info/";
+
+    projectReference.querySelector("#ref_03_item span").innerText = "ポケモンAPI　：";
+    projectReference.querySelector("#ref_03_item a").innerText = "https://pokeapi.co/";
+    projectReference.querySelector("#ref_03_item a").href = "https://pokeapi.co/";
+
+    projectReference.querySelector("#ref_04_item span").innerText = "GITHUB（ページ）チュートリアル　：";
+    projectReference.querySelector("#ref_04_item a").innerText = "https://docs.github.com/en/pages/quickstart";
+    projectReference.querySelector("#ref_04_item a").href = "https://docs.github.com/en/pages/quickstart";
+
+    projectReference.querySelector("#ref_05_item span").innerText = "NODE.JS（JAVASCRIPT)　公式チュートリアル";
+    projectReference.querySelector("#ref_05_item a").innerText = "https://nodejs.org/learn";
+    projectReference.querySelector("#ref_05_item a").href = "https://nodejs.org/learn";
+
 });

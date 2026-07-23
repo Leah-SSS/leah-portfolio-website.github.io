@@ -89,4 +89,34 @@ changeRuby.addEventListener("click", (event) => {
     skillSet03.querySelector("#skill08").innerText = "チームアプリ制作";
     skillSet03.querySelector("#skill09").innerText = "分析能力";
 
+
+    // ----------------------------
+    // <<< UPDATE REFERENCES >>>
+    // ----------------------------
+    const projectReference = document.querySelector("#body_reference");
+    console.log("Kaspania")
+
+
+    projectReference.querySelector("#ref_01_item span").innerText = "RUBY公式チュートリアル　：";
+    projectReference.querySelector("#ref_01_item a").innerText = "https://www.ruby-lang.org/en/documentation/quickstart/";
+    projectReference.querySelector("#ref_01_item a").href = "https://www.ruby-lang.org/en/documentation/quickstart/";
+
+    projectReference.querySelector("#ref_02_item span").innerText = "RUBY-ON-RAIL （ACTIVE-RECORD）　：";
+    projectReference.querySelector("#ref_02_item a").innerText = "https://guides.rubyonrails.org/active_record_basics.html";
+    projectReference.querySelector("#ref_02_item a").href = "https://guides.rubyonrails.org/active_record_basics.html";
+
+    projectReference.querySelector("#ref_03_item span").innerText = "SQLデータベース　（W3SCHOOL）　：";
+    projectReference.querySelector("#ref_03_item a").innerText = "https://www.w3schools.com/sql/";
+    projectReference.querySelector("#ref_03_item a").href = "https://www.w3schools.com/sql/";
+
+    projectReference.querySelector("#ref_04_item span").innerText = "GITHUBチュートリアル　：";
+    projectReference.querySelector("#ref_04_item a").innerText = "https://docs.github.com/en/get-started/start-your-journey/hello-world";
+    projectReference.querySelector("#ref_04_item a").href = "https://docs.github.com/en/get-started/start-your-journey/hello-world";
+
+    projectReference.querySelector("#ref_05_item span").innerText = " ーーー　";
+    projectReference.querySelector("#ref_05_item a").innerText = "";
+
+
+
+
 });

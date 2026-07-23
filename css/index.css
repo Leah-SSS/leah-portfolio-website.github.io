@@ -14,6 +14,7 @@
 @import url("components/project_title.css");
 @import url("components/project_content.css");
 @import url("components/project_skills.css");
+@import url("components/project_reference.css");
 
 p {
     font-size: 18px;
