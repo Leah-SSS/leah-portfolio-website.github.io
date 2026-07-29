@@ -27,7 +27,7 @@ changeRuby.addEventListener("click", (event) => {
   
     const projectBody01 = document.querySelector("#project_body_01");
     projectBody01.querySelector("h3").innerText = "１．RubyOnRails：プロトタイプ";
-    projectBody01.querySelector("p").innerText = `
+    projectBody01.querySelector(".project_part_content p").innerText = `
     チームでプロジェクト立案してからウェブサイトの核になる機能を模索。
     求人サイト制作の提案をチームが受け入れ、KanbanボードとFigmaでサイトのプロトタイプを作り上げた。
     プロトタイプを作ることで、UI・UXをはっきりさせる他、ドラフト段階で調整と改善が簡単に行える。
@@ -37,7 +37,7 @@ changeRuby.addEventListener("click", (event) => {
 
     const projectBody02 = document.querySelector("#project_body_02");
     projectBody02.querySelector("h3").innerText = "２．RubyOnRails：データベース";
-    projectBody02.querySelector("p").innerText = `
+    projectBody02.querySelector(".project_part_content p").innerText = `
     チームでの役割分担により、私はデータベース設計・構築を担当しました。
     基幹データベースにはPostgreSQLを選定し、開発効率とテストの網羅性を高めるため、ダミーデータを活用して環境を構築しました。
     フレームワークにはRuby on Railsを採用し、データベースとの相互作用には主にActive Recordパターンを利用しました。
@@ -49,7 +49,7 @@ changeRuby.addEventListener("click", (event) => {
 
     const projectBody03 = document.querySelector("#project_body_03");
     projectBody03.querySelector("h3").innerText = "３．RubyOnRails：フルスタック";
-    projectBody03.querySelector("p").innerText = `
+    projectBody03.querySelector(".project_part_content p").innerText = `
     データベース構築に続き、フロントエンドの「就職検索ページ」制作を担当しました。Ruby on Railsフレームワークを活用し、Ruby、JavaScript、HTML、CSSを駆使して、デザインおよび検索フィルタ機能をゼロから実装しました。
     検索フィルタはフロントエンドとデータベースを連携させる重要な機能であったため、特に厳密なテストとデバッグを行い、データの正確な取得と表示、およびユーザー操作性の確保に注力しました。
     `;
@@ -58,7 +58,7 @@ changeRuby.addEventListener("click", (event) => {
     
     const projectBody04 = document.querySelector("#project_body_04");
     projectBody04.querySelector("h3").innerText = "４．RubyOnRails：その他";
-    projectBody04.querySelector("p").innerText = `
+    projectBody04.querySelector(".project_part_content p").innerText = `
     チームでのウェブ制作において、特に貢献した要素はGitHubとアジャイル開発の導入です。
     GitHubは、バージョン管理による変更履歴の追跡やプルリクエストを用いたコードレビューを可能にし、チーム全体のプロジェクト管理とデバッグを大幅に効率化しました。これにより、コードの品質維持と問題の早期発見が実現できました。
     一方、アジャイル開発は、定期的な対話を通じて進捗状況、直面している課題、相談事項、そしてその日の計画を共有する文化を育みました。

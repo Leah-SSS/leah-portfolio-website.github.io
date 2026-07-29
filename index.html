@@ -15,9 +15,13 @@
                 <div id="nav_left">
                     <button id="nav_name"> SHIBATA LEAH </button>
                 </div>
-                <div id="nav_empty"></div>
+                <div id="nav-middle">
+                    <button id="btn_english"><img id="btn_img_jpn" src="image/language_icon/language_uk.png"> 英語 </button>
+                    <img id="language_img" src="image/language_icon/language_jpn.png" alt="accompany_image">
+                    <button id="btn_japanese"> 日本語 <img id="btn_img_jpn" src="image/language_icon/language_jpn.png"></button>
+                </div>  
+
                 <div id="nav_right">
-                    <button id="nav_intro"><a href=""> INTRO </a></button>
                     <button id="nav_github"><a href="https://github.com/Leah-SSS"> GITHUB </a></button>
                     <button id="nav_linkedin"><a href="http://www.linkedin.com/in/leah-wainwright-1a8635311"> LINKEDIN </a></button>
                 </div>
@@ -77,12 +81,30 @@
                                     １．RubyOnRails求人サイト
                                 </p>
                             </div>
-                            <img class="project_img" src="image/overview_img/ruby_icon_02.jpg" alt="accompany_image">
+                            <div class="project_img_box">
+                                <div class="img_img">
+                                    <button class="img_btn"> - </button>
+                                    <img class="project_img" src="image/overview_img/ruby_icon_02.jpg" alt="accompany_image">
+                                    <button class="img_btn"> + </button>
+                                </div>
+                                <div class="img_caption">
+                                    <p> It was a long long story </p>
+                                </div>
+                            </div>
                         </div>
 
 
                         <div id="project_body_02" class="project_parts"> 
-                            <img class="project_part_img" src="image/overview_img/python_icon_02.jpg" alt="accompany_image">
+                            <div class="project_img_box">
+                                <div class="img_img">
+                                    <button class="img_btn"> - </button>
+                                    <img class="project_img" src="image/overview_img/python_icon_02.jpg" alt="accompany_image">
+                                    <button class="img_btn"> + </button>
+                                </div>
+                                <div class="img_caption">
+                                    <p> It was a long long story </p>
+                                </div>
+                            </div>
                             <div class="project_part_content">
                                 <div class="project_part_title_box">
                                     <h3 class="project_parts_title"> PYTHON </h3>
@@ -105,11 +127,31 @@
                                     ２．ポートフォリオ・サイト
                                 </p>
                             </div>
-                            <img class="project_img" src="image/overview_img/javascript_icon.jpg" alt="accompany_image">
+                            <div class="project_img_box">
+                                <div class="img_img">
+                                    <button class="img_btn"> - </button>
+                                    <img class="project_img" src="image/overview_img/javascript_icon.jpg" alt="accompany_image">
+                                    <button class="img_btn"> + </button>
+                                </div>
+                                <div class="img_caption">
+                                    <p> It was a long long story </p>
+                                </div>
+                            </div>
+                            
                         </div>
 
                         <div id="project_body_04" class="project_parts"> 
-                            <img class="project_img" src="image/overview_img/garuda_icon_02.jpg" alt="accompany_image">
+                            <div class="project_img_box">
+                                <div class="img_img">
+                                    <button class="img_btn"> - </button>
+                                    <img class="project_img" src="image/overview_img/garuda_icon_02.jpg" alt="accompany_image">
+                                    <button class="img_btn"> + </button>
+                                </div>
+                                <div class="img_caption">
+                                    <p> It was a long long story </p>
+                                </div>
+                            </div>
+
                             <div class="project_part_content">
                                 <div class="project_part_title_box">
                                     <h3 class="project_parts_title"> LINUX </h3>
@@ -173,7 +215,22 @@
 
             <!-- Body UnderRibbon -->
             <div id="box_2_3" class="ribbon_box">
-                <h5> </h5>
+                <div class="main">
+                    <div class="gallery">
+                        <div class="gallery_item">
+                            <img id="popup_img" src="image/language_icon/language_jpn.png" class="popup-image" />
+                        </div>
+                        <div class="gallery_item">
+                            <img id="popup_img" src="image/language_icon/language_jpn.png" class="popup-image" />
+                        </div>
+                        <div class="gallery_item">
+                            <img id="popup_img" src="image/language_icon/language_jpn.png" class="popup-image" />
+                        </div>
+                        <div class="gallery_item">
+                            <img id="popup_img" src="image/language_icon/language_jpn.png" class="popup-image" />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div> 
         <!-- <script src="javascript/test_file/javascript_test.js"></script> -->
@@ -181,7 +238,8 @@
         <script src="javascript/ruby.js"></script>        
         <script src="javascript/python.js"></script>
         <script src="javascript/website.js"></script>
-        <script src="javascript/linux.js"></script>        
+        <script src="javascript/linux.js"></script> 
+        <script defer src="javascript/image.js"></script>       
         
     </body>
 

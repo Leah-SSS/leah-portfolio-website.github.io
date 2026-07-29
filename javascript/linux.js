@@ -27,7 +27,7 @@ changeLinux.addEventListener("click", (event) => {
   
     const projectBody01 = document.querySelector("#project_body_01");
     projectBody01.querySelector("h3").innerText = "１．Linux：OSのインストール";
-    projectBody01.querySelector("p").innerText = `
+    projectBody01.querySelector(".project_part_content p").innerText = `
     ダウンロードした Linux を PC にインストールし、自身の好みに合った UI と操作性を持つディストリビューションを見つけることができました。
     使用したのは Arch Linux ベースの「Garuda」です。 
     `;
@@ -36,7 +36,7 @@ changeLinux.addEventListener("click", (event) => {
 
     const projectBody02 = document.querySelector("#project_body_02");
     projectBody02.querySelector("h3").innerText = "２．Linux：AiChatbotと公式ドキュメント";
-    projectBody02.querySelector("p").innerText = `
+    projectBody02.querySelector(".project_part_content p").innerText = `
     Linux 初心者として、AI チャットボットを活用して用語の意味を学びながら基礎知識を蓄積し、Arch Linux の公式ドキュメント（Wiki）で内容を検証・理解する力を身につけることができました。
 
     `; 
@@ -45,7 +45,7 @@ changeLinux.addEventListener("click", (event) => {
 
     const projectBody03 = document.querySelector("#project_body_03");
     projectBody03.querySelector("h3").innerText = "３．Linux：ソフトウェアのインストール";
-    projectBody03.querySelector("p").innerText = `
+    projectBody03.querySelector(".project_part_content p").innerText = `
     Arch Linux において、pacman、yay、paru、snap などのコマンドを用いたソフトウェアインストールを経験しました。 
     調査の結果、pacman は公式リポジトリ（Arch Linux 運営管理）を、yay や paru は AUR（ユーザー管理）をそれぞれ扱う異なる役割があることを理解しました。 
     本チュートリアルを通じて、リポジトリの仕組みへの理解を深めるとともに、コマンドライン操作および Linux でのソフトウェア管理に関する実践的な知識と習熟度を高めることができました。
@@ -55,7 +55,7 @@ changeLinux.addEventListener("click", (event) => {
     
     const projectBody04 = document.querySelector("#project_body_04");
     projectBody04.querySelector("h3").innerText = "４．Linux：Windows依存ソフトウェアのインストール";
-    projectBody04.querySelector("p").innerText = `
+    projectBody04.querySelector(".project_part_content p").innerText = `
     Windows 依存のソフトも Linux で利用したく、Bottles や Wine を活用して様々な方法を試みました。
     CLIP STUDIO PAINT などのソフトウェアも、Bottles による隔離環境を用いれば、必要な依存パッケージと共に動作させることが可能です。 また、この過程で Bottles 環境が Flatpak のサンドボックス機能 を応用したセキュリティ隔離技術であることを理解でき、ソフトウェアのセキュリティツールについて学ぶことができました。
     `;
@@ -83,5 +83,33 @@ changeLinux.addEventListener("click", (event) => {
     skillSet03.querySelector("#skill07").innerText = "ーーー";
     skillSet03.querySelector("#skill08").innerText = "ーーー";
     skillSet03.querySelector("#skill09").innerText = "ーーー";
+
+
+    // ----------------------------
+    // <<< UPDATE REFERENCES >>>
+    // ----------------------------
+    const projectReference = document.querySelector("#body_reference");
+    console.log("Kaspania")
+
+
+    projectReference.querySelector("#ref_01_item span").innerText = "LINUX （GARUDA）インストール";
+    projectReference.querySelector("#ref_01_item a").innerText = "https://garudalinux.org/installation";
+    projectReference.querySelector("#ref_01_item a").href = "https://garudalinux.org/installation";
+
+    projectReference.querySelector("#ref_02_item span").innerText = "ARCH-LINUX　ソフトウェアインストール（PACMAN)：";
+    projectReference.querySelector("#ref_02_item a").innerText = "https://wiki.archlinux.org/title/Pacman";
+    projectReference.querySelector("#ref_02_item a").href = "https://wiki.archlinux.org/title/Pacman";
+
+    projectReference.querySelector("#ref_03_item span").innerText = "ARCH-LINUX　ソフトウェアインストール（AUR)　：";
+    projectReference.querySelector("#ref_03_item a").innerText = "https://wiki.archlinux.org/title/AUR_helpers";
+    projectReference.querySelector("#ref_03_item a").href = "https://wiki.archlinux.org/title/AUR_helpers";
+
+    projectReference.querySelector("#ref_04_item span").innerText = "ARCH-LINUX (FLATPAK）：";
+    projectReference.querySelector("#ref_04_item a").innerText = "https://wiki.archlinux.org/title/Flatpak";
+    projectReference.querySelector("#ref_04_item a").href = "https://wiki.archlinux.org/title/Flatpak";
+
+    projectReference.querySelector("#ref_05_item span").innerText = "Window依存ソフトインストール（クリスタ）";
+    projectReference.querySelector("#ref_05_item a").innerText = "https://github.com/parka6060/CSPenguin-Installer";
+    projectReference.querySelector("#ref_05_item a").innerText = "https://github.com/parka6060/CSPenguin-Installer";
 
 });

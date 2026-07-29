@@ -26,7 +26,7 @@ changeOverview.addEventListener("click", (event) => {
   
     const projectBody01 = document.querySelector("#project_body_01");
     projectBody01.querySelector("h3").innerText = "RUBY";
-    projectBody01.querySelector("p").innerText = `
+    projectBody01.querySelector(".project_part_content p").innerText = `
     １．RubyOnRails求人サイト
     `;
     projectBody01.querySelector("img").src = "image/overview_img/ruby_icon_02.jpg";
@@ -34,7 +34,7 @@ changeOverview.addEventListener("click", (event) => {
 
     const projectBody02 = document.querySelector("#project_body_02");
     projectBody02.querySelector("h3").innerText = "PYTHON";
-    projectBody02.querySelector("p").innerText = `
+    projectBody02.querySelector(".project_part_content p").innerText = `
     １．暗号当てゲーム
     ２．CodeWarsアルゴリズム問題
     ３．バトルシップ
@@ -44,7 +44,7 @@ changeOverview.addEventListener("click", (event) => {
 
     const projectBody03 = document.querySelector("#project_body_03");
     projectBody03.querySelector("h3").innerText = "ウェブ開発";
-    projectBody03.querySelector("p").innerText = `
+    projectBody03.querySelector(".project_part_content p").innerText = `
     １．ぷちポケモン図鑑API・サイト
     ２．ポートフォリオ・サイト
     `;
@@ -53,7 +53,7 @@ changeOverview.addEventListener("click", (event) => {
     
     const projectBody04 = document.querySelector("#project_body_04");
     projectBody04.querySelector("h3").innerText = "LINUX";
-    projectBody04.querySelector("p").innerText = `
+    projectBody04.querySelector(".project_part_content p").innerText = `
     １．ArchLinuxインストール
     ２．ソフトウェアインストール
     ３．Windows依存アプリインストール
