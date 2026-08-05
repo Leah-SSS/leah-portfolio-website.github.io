@@ -1,15 +1,15 @@
-const imgAllModal = document.querySelectorAll(".gallery_item img");
+// const imgAllModal = document.querySelectorAll(".gallery_item img");
 
-let imgSrc;
-imgAllModal.forEach((img) => {
-    img.addEventListener("click", (event) => { 
-        console.log("<<< Python Event Testing Check >>>");
-        imgSrc = event.target.src;
-        console.log(imgSrc);
-        imgModal(imgSrc);
+// let imgSrc;
+// imgAllModal.forEach((img) => {
+//     img.addEventListener("click", (event) => { 
+//         console.log("<<< Python Event Testing Check >>>");
+//         imgSrc = event.target.src;
+//         console.log(imgSrc);
+//         imgModal(imgSrc);
 
-    });
-});
+//     });
+// });
 
 // ------------------------------------------
 const imgAllProject = document.querySelectorAll(".project_img_box img");

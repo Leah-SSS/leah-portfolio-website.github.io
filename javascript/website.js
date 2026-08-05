@@ -111,8 +111,8 @@ changeWebsite.addEventListener("click", (event) => {
     projectReference.querySelector("#ref_04_item a").innerText = "https://docs.github.com/en/pages/quickstart";
     projectReference.querySelector("#ref_04_item a").href = "https://docs.github.com/en/pages/quickstart";
 
-    projectReference.querySelector("#ref_05_item span").innerText = "NODE.JS（JAVASCRIPT)　公式チュートリアル";
-    projectReference.querySelector("#ref_05_item a").innerText = "https://nodejs.org/learn";
-    projectReference.querySelector("#ref_05_item a").href = "https://nodejs.org/learn";
+    projectReference.querySelector("#ref_05_item span").innerText = "Javascriptで画像モーダル生成チュートリアル";
+    projectReference.querySelector("#ref_05_item a").innerText = "https://dev.to/salehmubashar/create-an-image-modal-with-javascript-2lf3";
+    projectReference.querySelector("#ref_05_item a").href = "https://dev.to/salehmubashar/create-an-image-modal-with-javascript-2lf3";
 
 });
